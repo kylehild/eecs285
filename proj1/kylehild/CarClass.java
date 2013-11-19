@@ -2,7 +2,7 @@
 //Original Programmer: Kyle Hildebrandt
 public class CarClass{
 
-    final double MAXSPEED = 80;
+    final double MAXSPEED = 100;
 
     //declare variables
     String brand, plate;

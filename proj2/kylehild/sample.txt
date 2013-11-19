@@ -1,0 +1,90 @@
+Printing Initial Board:
+  |--|--|--|--|--|--|--|--|
+8 |bR|bN|bB|bQ|bK|bB|bN|bR|
+  |--|--|--|--|--|--|--|--|
+7 |bP|bP|bP|bP|bP|bP|bP|bP|
+  |--|--|--|--|--|--|--|--|
+6 |  |  |  |  |  |  |  |  |
+  |--|--|--|--|--|--|--|--|
+5 |  |  |  |  |  |  |  |  |
+  |--|--|--|--|--|--|--|--|
+4 |  |  |  |  |  |  |  |  |
+  |--|--|--|--|--|--|--|--|
+3 |  |  |  |  |  |  |  |  |
+  |--|--|--|--|--|--|--|--|
+2 |wP|wP|wP|wP|wP|wP|wP|wP|
+  |--|--|--|--|--|--|--|--|
+1 |wR|wN|wB|wQ|wK|wB|wN|wR|
+  |--|--|--|--|--|--|--|--|
+   a  b  c  d  e  f  g  h
+Moving White Pawn from d2 to d4
+Moving Black Knight from b8 to c6
+Moving White Queen from d1 to d3
+Moving Black Pawn from h7 to h6
+Moving White Pawn from a2 to a3
+Moving Black Pawn from a7 to a6
+Error: removePiece - Invalid space RC: 6 8
+  |--|--|--|--|--|--|--|--|
+8 |bR|  |bB|bQ|bK|bB|bN|bR|
+  |--|--|--|--|--|--|--|--|
+7 |  |bP|bP|bP|bP|bP|bP|  |
+  |--|--|--|--|--|--|--|--|
+6 |bP|  |bN|  |  |  |  |bP|
+  |--|--|--|--|--|--|--|--|
+5 |  |  |  |  |  |  |  |  |
+  |--|--|--|--|--|--|--|--|
+4 |  |  |  |wP|  |  |  |  |
+  |--|--|--|--|--|--|--|--|
+3 |wP|  |  |wQ|  |  |  |  |
+  |--|--|--|--|--|--|--|--|
+2 |  |wP|wP|  |wP|wP|wP|wP|
+  |--|--|--|--|--|--|--|--|
+1 |wR|wN|wB|  |wK|wB|wN|wR|
+  |--|--|--|--|--|--|--|--|
+   a  b  c  d  e  f  g  h
+wP at c2 valid moves:
+   Vacant: c3
+   Vacant: c4
+  Total Possible Moves: 2
+bP at g7 valid moves:
+   Vacant: g6
+   Vacant: g5
+  Total Possible Moves: 2
+wR at a1 valid moves:
+   Vacant: a2
+  Total Possible Moves: 1
+bR at h8 valid moves:
+   Vacant: h7
+  Total Possible Moves: 1
+wN at b1 valid moves:
+   Vacant: c3
+   Vacant: d2
+  Total Possible Moves: 2
+bP at c7 valid moves:
+  Total Possible Moves: 0
+wQ at d3 valid moves:
+   Vacant: c3
+   Vacant: b3
+   Vacant: e3
+   Vacant: f3
+   Vacant: g3
+   Vacant: h3
+   Vacant: d2
+   Vacant: d1
+   Vacant: c4
+   Vacant: b5
+  Take bP: a6
+   Vacant: e4
+   Vacant: f5
+   Vacant: g6
+   Vacant: h7
+  Total Possible Moves: 15
+wB at c1 valid moves:
+   Vacant: d2
+   Vacant: e3
+   Vacant: f4
+   Vacant: g5
+  Take bP: h6
+  Total Possible Moves: 5
+Num valid moves for white Rooks: 1
+Num valid moves for black Rooks: 3
